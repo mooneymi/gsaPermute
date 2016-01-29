@@ -1,0 +1,10 @@
+Package: gsaPermute
+Type: Package
+Title: Gene Permutation Procedure for Unbiased Gene Set Analysis
+Version: 1.0
+Date: 2014-04-25
+Author: Michael Mooney
+Maintainer: Michael Mooney <mooneymi@ohsu.edu>
+Description: gsaPermute is an R package that can be used to create random gene sets of approximately the same composition (same number of genes with the same number of SNPs) as an a priori defined gene set (e.g. from a publicly available pathway database). As part of a gene set (pathway) analysis, this procedure can be used to calculate a null distribution of association statistics for each pathway being tested, which enables adjustment of p-values for pathway size and linkage disequilibrium (correlation between SNPs).
+License: GPLv3
+Suggests: SNPath
